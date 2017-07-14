@@ -11,6 +11,7 @@ Sender.cpp.o: ..\Sender.cpp ..\Sender.h \
  C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.19\cores\arduino/Arduino.h \
  C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.19\variants\eightanaloginputs/pins_arduino.h \
  C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.19\variants\eightanaloginputs/../standard/pins_arduino.h \
+ D:\Projekte\Smarthome\Common/Common.h \
  C:\Users\Martin\Documents\Arduino\libraries\OneWire/OneWire.h \
  C:\Users\Martin\Documents\Arduino\libraries\DallasTemperature/DallasTemperature.h \
  C:\Users\Martin\Documents\Arduino\libraries\VirtualWire/VirtualWire.h \
@@ -41,6 +42,8 @@ C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.19\cores\arduino/Ardu
 C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.19\variants\eightanaloginputs/pins_arduino.h:
 
 C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.19\variants\eightanaloginputs/../standard/pins_arduino.h:
+
+D:\Projekte\Smarthome\Common/Common.h:
 
 C:\Users\Martin\Documents\Arduino\libraries\OneWire/OneWire.h:
 

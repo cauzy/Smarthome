@@ -18,21 +18,22 @@
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.201984730" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
 							<builder buildPath="${workspace_loc:/Receiver}/Release" id="io.sloeber.sketch.builder.1604598521" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
 							<tool id="io.sloeber.tool.sketch.compiler.cpp.1956495662" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
-								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.625867876" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.625867876" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Receiver/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Projekte\Smarthome\Common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Receiver/libraries/VirtualWire}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.1100179896" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
 							<tool id="io.sloeber.tool.compiler.c.88502126" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
-								<option id="io.sloeber.compiler.c.sketch.option.incpath.1023591151" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.1023591151" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Receiver/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Receiver/libraries/VirtualWire}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.1561561340" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
 							<tool id="io.sloeber.tool.sketch.compiler.s.181844575" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
-								<option id="io.sloeber.compiler.asm.sketch.option.incpath.150332843" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.150332843" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Receiver/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Receiver/libraries/VirtualWire}&quot;"/>
 								</option>

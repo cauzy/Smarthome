@@ -18,7 +18,8 @@
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1026619455" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
 							<builder buildPath="${workspace_loc:/Sender}/Release" id="io.sloeber.sketch.builder.45599459" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
 							<tool id="io.sloeber.tool.sketch.compiler.cpp.891575430" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
-								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.381576372" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.381576372" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:\Projekte\Smarthome\Common&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/libraries/DallasTemperature}&quot;"/>
@@ -28,7 +29,7 @@
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.1489784830" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
 							<tool id="io.sloeber.tool.compiler.c.1158477934" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
-								<option id="io.sloeber.compiler.c.sketch.option.incpath.1959697027" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.1959697027" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/libraries/DallasTemperature}&quot;"/>
@@ -38,7 +39,7 @@
 								<inputType id="io.sloeber.compiler.c.sketch.input.1901971150" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
 							<tool id="io.sloeber.tool.sketch.compiler.s.181838468" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
-								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1991639878" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1991639878" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/core/core}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/core/variant}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Sender/libraries/DallasTemperature}&quot;"/>

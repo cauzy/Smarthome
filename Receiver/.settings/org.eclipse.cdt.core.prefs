@@ -46,7 +46,7 @@ environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.CORE/ope
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.CORE/value=${A.JANTJE.BUILD_CORE}
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FCPU/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FCPU/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FCPU/value=48000000
+environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FCPU/value=96000000
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FLAGS.C/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FLAGS.C/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FLAGS.C/value=
@@ -82,7 +82,7 @@ environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FLAGS.S/
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.FLAGS.S/value=-x assembler-with-cpp
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.KEYLAYOUT/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.KEYLAYOUT/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.KEYLAYOUT/value=GERMAN
+environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.KEYLAYOUT/value=US_ENGLISH
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.MCU/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.MCU/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/A.BUILD.MCU/value=mk20dx128
@@ -133,10 +133,10 @@ environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.DTS
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.DTS/value=3600
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.LOCAL/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.LOCAL/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.LOCAL/value=1500052859
+environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.LOCAL/value=1500060260
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.UTC/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.UTC/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.UTC/value=1500045659
+environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.UTC/value=1500053060
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.ZONE/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.ZONE/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/A.EXTRA.TIME.ZONE/value=3600
@@ -181,7 +181,7 @@ environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.AR.PATT
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.AR.PATTERN/value="${A.COMPILER.PATH}${A.BUILD.TOOLCHAIN}${A.BUILD.COMMAND.AR}" rcs "${A.BUILD.PATH}/core/${A.ARCHIVE_FILE}" "${A.OBJECT_FILE}"
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN.1/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN.1/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-gcc" -O1 -Wl,--gc-sections,--relax,--defsym\=__rtc_localtime\=1500052859 "-TC\:/Program Files (x86)/Arduino/hardware/teensy/avr/cores/teensy3/mk20dx128.ld" -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -o "D\:\\Projekte\\Smarthome\\Receiver/Release/Receiver.elf" 
+environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-gcc" -O1 -Wl,--gc-sections,--relax,--defsym\=__rtc_localtime\=1500060260 "-TC\:/Program Files (x86)/Arduino/hardware/teensy/avr/cores/teensy3/mk20dx128.ld" -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -o "D\:\\Projekte\\Smarthome\\Receiver/Release/Receiver.elf" 
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN.2/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN.2/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN.2/value=\ 
@@ -193,7 +193,7 @@ environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBI
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.COMBINE.PATTERN/value="${A.COMPILER.PATH}${A.BUILD.TOOLCHAIN}${A.BUILD.COMMAND.GCC}" ${A.BUILD.FLAGS.OPTIMIZE} ${A.BUILD.FLAGS.LD} ${A.BUILD.FLAGS.LDSPECS} ${A.BUILD.FLAGS.CPU} -o "${A.BUILD.PATH}/${A.BUILD.PROJECT_NAME}.elf" ${A.OBJECT_FILES} "${A.BUILD.PATH}/${A.ARCHIVE_FILE}" "-L${A.BUILD.PATH}" ${A.BUILD.FLAGS.LIBS}
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN.1/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN.1/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-gcc" -c -O1 -g -Wall -ffunction-sections -fdata-sections -nostdlib -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -D__MK20DX128__ -DTEENSYDUINO\=134 -DARDUINO\=10802 -DF_CPU\=48000000 -DUSB_SERIAL -DLAYOUT_GERMAN 
+environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-gcc" -c -O1 -g -Wall -ffunction-sections -fdata-sections -nostdlib -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -D__MK20DX128__ -DTEENSYDUINO\=134 -DARDUINO\=10802 -DF_CPU\=96000000 -DUSB_SERIAL -DLAYOUT_US_ENGLISH 
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN.2/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN.2/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN.2/value=\ -o 
@@ -205,7 +205,7 @@ environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PAT
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.C.O.PATTERN/value="${A.COMPILER.PATH}${A.BUILD.TOOLCHAIN}${A.BUILD.COMMAND.GCC}" -c ${A.BUILD.FLAGS.OPTIMIZE} ${A.BUILD.FLAGS.COMMON} ${A.BUILD.FLAGS.DEP} ${A.BUILD.FLAGS.C} ${A.BUILD.FLAGS.CPU} ${A.BUILD.FLAGS.DEFS} -DARDUINO\=${A.RUNTIME.IDE.VERSION} -DF_CPU\=${A.BUILD.FCPU} -D${A.BUILD.USBTYPE} -DLAYOUT_${A.BUILD.KEYLAYOUT} ${A.INCLUDES} "${A.SOURCE_FILE}" -o "${A.OBJECT_FILE}"
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.CPP.O.PATTERN.1/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.CPP.O.PATTERN.1/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.CPP.O.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-g++" -c -O1 -g -Wall -ffunction-sections -fdata-sections -nostdlib -fno-exceptions -felide-constructors -std\=gnu++0x -fno-rtti -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -D__MK20DX128__ -DTEENSYDUINO\=134 -DARDUINO\=10802 -DF_CPU\=48000000 -DUSB_SERIAL -DLAYOUT_GERMAN 
+environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.CPP.O.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-g++" -c -O1 -g -Wall -ffunction-sections -fdata-sections -nostdlib -fno-exceptions -felide-constructors -std\=gnu++0x -fno-rtti -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -D__MK20DX128__ -DTEENSYDUINO\=134 -DARDUINO\=10802 -DF_CPU\=96000000 -DUSB_SERIAL -DLAYOUT_US_ENGLISH 
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.CPP.O.PATTERN.2/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.CPP.O.PATTERN.2/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.CPP.O.PATTERN.2/value=\ -o 
@@ -253,7 +253,7 @@ environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.PREPROC
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.PREPROC.MACROS/value="${A.COMPILER.PATH}${A.BUILD.TOOLCHAIN}${A.BUILD.COMMAND.G++}" -E -CC -x c++ -w ${A.COMPILER.CPP.FLAGS} ${A.BUILD.FLAGS.COMMON} ${A.BUILD.FLAGS.CPP} ${A.BUILD.FLAGS.CPU} ${A.BUILD.FLAGS.DEFS} -DARDUINO\=${A.RUNTIME.IDE.VERSION} -DF_CPU\=${A.BUILD.FCPU} -D${A.BUILD.USBTYPE} -DLAYOUT_${A.BUILD.KEYLAYOUT} ${A.INCLUDES} "${A.SOURCE_FILE}" -o "${A.PREPROCESSED_FILE_PATH}"
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.S.O.PATTERN.1/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.S.O.PATTERN.1/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.S.O.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-gcc" -c -O1 -g -Wall -ffunction-sections -fdata-sections -nostdlib -x assembler-with-cpp -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -D__MK20DX128__ -DTEENSYDUINO\=134 -DARDUINO\=10802 -DF_CPU\=48000000 -DUSB_SERIAL -DLAYOUT_GERMAN 
+environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.S.O.PATTERN.1/value="C\:/Program Files (x86)/Arduino/hardware/teensy/../tools/arm/bin/arm-none-eabi-gcc" -c -O1 -g -Wall -ffunction-sections -fdata-sections -nostdlib -x assembler-with-cpp -mthumb -mcpu\=cortex-m4 -fsingle-precision-constant -D__MK20DX128__ -DTEENSYDUINO\=134 -DARDUINO\=10802 -DF_CPU\=96000000 -DUSB_SERIAL -DLAYOUT_US_ENGLISH 
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.S.O.PATTERN.2/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.S.O.PATTERN.2/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/A.RECIPE.S.O.PATTERN.2/value=\ -o 
@@ -427,13 +427,13 @@ environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.CPU/
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.CPU/value=16MHZATMEGA168
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.KEYS/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.KEYS/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.KEYS/value=DE-DE
+environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.KEYS/value=EN-US
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.OPT/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.OPT/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.OPT/value=O1STD
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.SPEED/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.SPEED/operation=replace
-environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.SPEED/value=48
+environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.SPEED/value=96
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.USB/delimiter=;
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.USB/operation=replace
 environment/project/io.sloeber.core.toolChain.release.723560566/JANTJE.MENU.USB/value=SERIAL

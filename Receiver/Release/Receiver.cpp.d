@@ -35,6 +35,7 @@ Receiver.cpp.o: ..\Receiver.cpp ..\Receiver.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/elapsedMillis.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/IntervalTimer.h \
+ D:\Projekte\Smarthome\Common/Common.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\VirtualWire/VirtualWire.h
 
 ..\Receiver.h:
@@ -110,5 +111,7 @@ C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/elapsedMillis
 C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/Arduino.h:
 
 C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/IntervalTimer.h:
+
+D:\Projekte\Smarthome\Common/Common.h:
 
 C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\VirtualWire/VirtualWire.h:
